@@ -32,7 +32,7 @@ Let's look at the earlier example:
 commentNode.innerHTML = "<div class='some-class'>This is a comment and it's real long</div><p>" + someDynamicValue + "</p><p>" + someOtherValue + "</p>"
 ```
 
-The `<div class='some-class'>...` string is our template. It's not very pretty, but it's ours. We load data into the template by closing the string and concatenating variables then continuing the template string. If you're anything like me, you've forgotten to type at least one of the plus signs nearly every time you've done any long string concatenation, so, bare minimum, our templating tool should fix this problem.
+The `<div class='some-class'>...` string is our template. It's not very pretty, but it's ours. We load data into the template by closing the string and concatenating variables then continuing the template string. If you're anything like me, you've forgotten to type at least one of the plus signs nearly every time you've done any long string concatenation, so, at a bare minimum, our templating tool should fix this problem.
 
 ### Basic Templating With Interpolation
 
